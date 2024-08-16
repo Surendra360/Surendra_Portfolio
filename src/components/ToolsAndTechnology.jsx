@@ -15,7 +15,7 @@ const ToolsAndTechnology = () => {
   return (
     <div>
       <div className="w-screen flex items-center justify-center gap-10 bg-gray-500">
-        <div className="w-3/5 flex flex-col gap-4 items-center justify-center p-5 text-white mt-20">
+        <div className="md:w-3/5 flex flex-col gap-4 items-center justify-center p-5 text-white mt-20">
           <h1 className="text-4xl font-semibold mb-5 hover:text-[#16FF00] border-b-4 p-3 duration-200">
           TOOLS & TECHNOLOGY
           </h1>
