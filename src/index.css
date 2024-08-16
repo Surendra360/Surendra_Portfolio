@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#heading:hover #line{
+    left: 0;
+}
+#overlay{
+    scale: 0;
+    opacity: o;
+}
+#img:hover #overlay{
+    opacity: 1;  
+    scale: 1;
+}
