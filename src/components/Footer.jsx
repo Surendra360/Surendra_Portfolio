@@ -5,7 +5,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-6 px-5">
-      <div className="flex justify-between items-center">
+      <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
         <div className="flex items-center">
           <span className="text-sm">
             &copy; {new Date().getFullYear()} Surendra Kumar. All rights reserved.
