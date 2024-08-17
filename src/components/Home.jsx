@@ -1,26 +1,21 @@
 import React from "react";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
+import HeroText from "./HeroText";
 
 const Home = () => {
   return (
     <div>
       <div className="h-screen bg-gray-500 text-white flex flex-col items-center justify-center">
-        <div className="w-5/6 md:flex items-center justify-center md:gap-20">
+        <div className="w-5/6 mb-10 md:flex items-center justify-center md:gap-20">
           <section className="flex flex-col md:w-[50%]">
-            <h1 className="text-2xl font-semibold mb-2">Hi, My name is</h1>
-            <h1 className="max-sm:text-[2rem] text-[3em] mb-5 text-[#16FF00]">
+            <h1 className="text-2xl font-semibold mb-2"><span className="text-[#16FF00]">Hi,</span> My name is</h1>
+            <h1 className="max-sm:text-[2rem] text-[5rem] mb-5 font-semibold ">
               Surendra Kumar
             </h1>
-            <p className="text-lg">
-              Dedicated and results-oriented Full Stack Developer specializing
-              in MERN stack development. Proficient in building dynamic and
-              responsive web applications with a strong emphasis on backend
-              development using React.Js Node.js and Express. Experienced in
-              handling image uploads with Multer and ImageKit and creating
-              engaging user interfaces with animations. Passionate about
-              leveraging modern technologies to solve real-world problems and
-              deliver high-quality solutions.
+            <p className="text-xl">
+               Full Stack Developer specializing
+              in <span className="text-[#16FF00]">MERN Stack</span> development. 
             </p>
 
             <Link to="/about" className="max-w-max">
@@ -39,6 +34,11 @@ const Home = () => {
             </div>
           </section>
         </div>
+          
+          <div className="py-10 ">
+          <HeroText />
+          </div>
+
       </div>
     </div>
   );
