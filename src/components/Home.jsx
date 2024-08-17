@@ -24,6 +24,9 @@ const Home = () => {
               </button>
             </Link>
           </section>
+          <section className="p-10">
+            <img src="assets/desk profile.gif" alt="" />
+          </section>
 
           <section className="hidden w-[40%] rounded">
             <div class="group duration-500 hover:-skew-x-0 skew-x-6 hover:translate-x-2">

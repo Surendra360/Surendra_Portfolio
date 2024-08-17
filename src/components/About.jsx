@@ -103,26 +103,3 @@ const About = () => {
 
 export default About;
 
-// src/About.jsx
-// import React from 'react';
-
-// const About = () => {
-//   return (
-//     <div className="bg-gray-100 min-h-screen flex flex-col items-center p-4">
-//       <div className="max-w-3xl w-full bg-white p-8 rounded-lg shadow-md">
-//         <h1 className="text-4xl font-bold text-center mb-6">About Me</h1>
-//         <p className="text-lg mb-4">
-//           Hi, I'm Surendra Kumar, a recent B.Tech graduate in Information Technology from the Oriental Institute of Science and Technology, Bhopal. I have a strong foundation in computer science and a passion for web development.
-//         </p>
-//         <p className="text-lg mb-4">
-//           I am proficient in HTML, CSS, and JavaScript, with hands-on experience in creating visually appealing and user-friendly interfaces. My technical skills extend to technologies like Node.js, React.js, and database management with SQL and MongoDB.
-//         </p>
-//         <p className="text-lg mb-4">
-//           I am currently exploring opportunities to further develop my skills and contribute to exciting projects. Feel free to reach out to me via <a href="mailto:surendrakeerbaniya@gmail.com" className="text-blue-500">email</a>, <a href="https://www.linkedin.com/in/surendra-kumar-ab90611a7" className="text-blue-500">LinkedIn</a>, or check out my work on <a href="https://github.com/Surendra360" className="text-blue-500">GitHub</a>.
-//         </p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default About;
