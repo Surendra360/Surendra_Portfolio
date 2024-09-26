@@ -1,7 +1,8 @@
 import React from "react";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
-import HeroText from "./HeroText";
+import About from "./About";
+import Project from "./Project";
 
 const Home = () => {
   return (
@@ -38,11 +39,15 @@ const Home = () => {
           </section>
         </div>
           
-          <div className="py-10 ">
-          <HeroText />
-          </div>
+          
 
       </div>
+      <div >
+       <About/>
+          </div>
+      <div >
+       <Project/>
+          </div>
     </div>
   );
 };
